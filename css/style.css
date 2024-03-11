@@ -516,13 +516,8 @@ color:#646464;
     justify-content: space-between;
     align-items: flex-start;
     row-gap: 56px;
-    transition: 1s ease all;
-    transform: translateX(-550px);
 }
 
-.was-in-viewport .banner-content, .element-in-viewport .banner-content, .in-viewport .banner-content{
-    transform: translateX(0);
-}
 
 .banner-top h1 {
     max-width: 13ch;

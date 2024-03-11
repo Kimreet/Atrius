@@ -160,7 +160,7 @@ function hideLoader() {
 
 // Example usage:
 showLoader(); // Show loader
-setTimeout(hideLoader, 8000); // Hide loader after 5 seconds (example)
+setTimeout(hideLoader, 3000); // Hide loader after 3 seconds (example)
 
 
 
@@ -193,6 +193,5 @@ function switchWord($oldWord, $newWord) {
   $oldWord.removeClass('is-visible').addClass('is-hidden');
   $newWord.removeClass('is-hidden').addClass('is-visible');
 }
-
 
 
